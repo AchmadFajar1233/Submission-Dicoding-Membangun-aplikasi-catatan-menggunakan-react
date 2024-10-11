@@ -1,0 +1,20 @@
+.note__button{
+    width: 15rem;
+    height: 2rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.note__button button{
+    border: none;
+    background: transparent;
+}
+.note__button .delete{
+    flex: 1;
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;    
+}
+.note__button .archieve{
+    flex: 1;
+    border-top: 1px solid whitesmoke;
+}

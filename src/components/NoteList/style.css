@@ -1,0 +1,37 @@
+.empty__note{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+}
+.note__list-container{
+    margin-top: 2rem;
+}
+.note__list-container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.archieve__text{
+    margin-top: 1rem;
+}
+.note__list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+    gap: 1rem;
+}
+@media screen and (max-width: 1200px){
+    .note__list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 780px){
+    .note__list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 520px){
+    .note__list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,10 @@
+header{
+    width: 100%;
+}
+main{
+    margin-top: 4rem;
+    min-width: 80%;
+}
+hr{
+    margin: 1rem 0;
+}
